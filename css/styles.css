@@ -1,3 +1,8 @@
+:root {
+  --main-font: "Roboto", Roboto;
+  --snd-font: "Raleway", Raleway;
+}
+
 body {
   position: relative;
   width: 1600px;
@@ -47,7 +52,7 @@ p {
 }
 .logo {
   cursor: pointer;
-  font-family: Raleway;
+  font-family: var(--snd-font);
   font-style: normal;
   font-weight: bold;
   font-size: 26px;
@@ -56,13 +61,13 @@ p {
   text-decoration: none;
 }
 .logo-st {
+  color: #08151f;
   cursor: pointer;
-  font-family: Raleway;
+  font-family: var(--snd-font);
   font-style: normal;
   font-weight: bold;
   font-size: 26px;
   line-height: 31px;
-  color: #08151f;
   text-decoration: none;
 }
 .logo-sta {
