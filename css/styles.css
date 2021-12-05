@@ -1,13 +1,17 @@
 :root {
   --main-font: "Roboto", Roboto;
   --snd-font: "Raleway", Raleway;
+  --main-color: #2196f3;
+  --text-color: #212121;
+  --backgrond-color: #ffffff;
+  --border-color: #ececee;
 }
 
 body {
   position: relative;
   width: 1600px;
   height: 2349px;
-  background: #ffffff;
+  background: var(--backgrond-color);
 }
 h1,
 h2,
@@ -33,7 +37,7 @@ p {
   position: absolute;
   width: 1600px;
   height: 80px;
-  border-bottom: 1px solid #ececec;
+  border-bottom: 1px solid var(--border-color);
 }
 .menu-nav {
   position: absolute;
@@ -72,7 +76,7 @@ p {
 }
 .logo-sta {
   cursor: pointer;
-  font-family: Raleway;
+  font-family: var(--snd-font);
   font-style: normal;
   font-weight: bold;
   font-size: 26px;
@@ -88,7 +92,7 @@ p {
   text-decoration: none;
   padding-left: 50px;
 
-  font-family: Roboto;
+  font-family: var(--main-font);
   font-style: normal;
   font-weight: 500;
   font-size: 14px;
@@ -97,14 +101,14 @@ p {
   color: #212121;
 }
 .header-menu:hover {
-  color: #2196f3;
+  color: var(--main-color);
 }
 .header-tel {
   cursor: pointer;
   text-decoration: none;
   padding-left: 400px;
 
-  font-family: Roboto;
+  font-family: var(--main-font);
   font-style: normal;
   font-weight: 500;
   font-size: 14px;
@@ -113,23 +117,23 @@ p {
   color: #212121;
 }
 .header-tel:hover {
-  color: #2196f3;
+  color: var(--main-color);
 }
 .header-mail {
   cursor: pointer;
   text-decoration: none;
   padding-left: 25px;
 
-  font-family: Roboto;
+  font-family: var(--main-font);
   font-style: normal;
   font-weight: 500;
   font-size: 14px;
   line-height: 16px;
   letter-spacing: 0.02em;
-  color: #212121;
+  color: var(--text-color);
 }
 .header-mail:hover {
-  color: #2196f3;
+  color: var(--main-color);
 }
 .header-underline {
   position: absolute;
@@ -138,7 +142,7 @@ p {
   width: 60px;
   height: 8px;
   border-radius: 20%;
-  background-color: #2196f3;
+  background-color: var(--main-color);
 }
 .header-underline-portfolio {
   position: absolute;
@@ -147,19 +151,19 @@ p {
   width: 60px;
   height: 8px;
   border-radius: 20%;
-  background-color: #2196f3;
+  background-color: var(--main-color);
 }
 .main {
   padding-top: 80px;
 }
-.main-order-title {
+.main__order-title {
   position: absolute;
   width: 696px;
   height: 120px;
   left: 402px;
   top: 230px;
 
-  font-family: Roboto;
+  font-family: var(--main-font);
   font-style: normal;
   font-weight: 900;
   font-size: 44px;
@@ -169,9 +173,9 @@ p {
   letter-spacing: 0.06em;
   text-transform: uppercase;
 
-  color: #ffffff;
+  color: var(--backgrond-color);
 }
-.main-order-button {
+.main__order-button {
   position: absolute;
   width: 200px;
   height: 50px;
@@ -179,12 +183,12 @@ p {
   top: 380px;
   cursor: pointer;
 
-  background: #2196f3;
+  background: var(--main-color);
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
   border-radius: 4px;
 }
-.main-order-button-content {
-  font-family: Roboto;
+.main__order-button-content {
+  font-family: var(--main-font);
   font-style: normal;
   font-weight: bold;
   font-size: 16px;
@@ -192,9 +196,9 @@ p {
   letter-spacing: 0.05em;
   margin: auto;
 
-  color: #ffffff;
+  color: var(--backgrond-color);
 }
-.main-order-section {
+.main__order-section {
   position: absolute;
   width: 1600px;
   height: 600px;
@@ -213,17 +217,17 @@ p {
   height: 980px;
   padding-top: 680px;
 }
-.stats-list {
+.stats__list {
   display: inline-block;
   width: 320px;
   height: 100px;
   list-style-type: none;
   padding: 25px;
 }
-.stats-description {
+.stats__description {
   color: #757575;
 }
-.stats-item-svg {
+.stats__item-svg {
   width: 270px;
   height: 100px;
   padding: 10px;
@@ -241,17 +245,17 @@ p {
 .jobs-section {
   height: 500px;
 }
-.jobs-list {
+.jobs__list {
   display: inline;
   padding-right: 25px;
   padding-left: 25px;
   list-style-type: none;
 }
-.jobs-image {
+.jobs__image {
   width: 370px;
   height: 294px;
 }
-.jobs-title {
+.jobs__title {
   position: absolute;
   width: 1600px;
   height: 100px;
@@ -265,7 +269,7 @@ p {
 
   color: #212121;
 }
-.jobs-desc {
+.jobs__desc {
   position: absolute;
   bottom: 20px;
   width: 370px;
@@ -273,10 +277,10 @@ p {
 
   background-color: rgba(47, 48, 58, 0.8);
 }
-.jobs-desc-text {
+.jobs__desc-text {
   padding-top: 8px;
   text-align: center;
-  color: #ffffff;
+  color: var(--backgrond-color);
 }
 .team {
   position: absolute;
@@ -324,7 +328,7 @@ p {
   line-height: 42px;
   text-align: center;
 
-  color: #212121;
+  color: var(--text-color);
 }
 .team-text-title {
   width: 300px;
@@ -357,7 +361,7 @@ p {
 .adress {
   display: flex;
   justify-content: start;
-  font-family: Roboto;
+  font-family: var(--main-font);
   font-style: normal;
   font-weight: normal;
   font-size: 14px;
@@ -365,7 +369,7 @@ p {
   letter-spacing: 0.03em;
 
   padding-left: 150px;
-  color: #ffffff;
+  color: var(--backgrond-color);
 }
 .filters {
   position: absolute;
@@ -396,7 +400,7 @@ p {
   border-radius: 4px;
 }
 .filter-button:hover {
-  background-color: #2196f3;
+  background-color: var(--main-color);
   color: #f5f4fa;
   box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 1px 2px rgba(0, 0, 0, 0.08),
     0px 2px 2px rgba(0, 0, 0, 0.12);
@@ -508,7 +512,7 @@ p {
   stroke: currentColor;
   fill: currentColor;
 }
-.social-icons {
+.social {
   display: flex;
   justify-content: center;
   height: 50px;
