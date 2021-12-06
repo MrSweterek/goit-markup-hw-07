@@ -255,7 +255,7 @@ p {
   width: 370px;
   height: 294px;
 }
-.jobs__title {
+.jobs-__title {
   position: absolute;
   width: 1600px;
   height: 100px;
@@ -518,20 +518,20 @@ p {
   height: 50px;
   list-style-type: none;
 }
-.social-icon-list {
+.social__icon-list {
   height: 100px;
 }
-.social-button {
+.social__button {
   border: none;
   height: 60px;
   width: 60px;
   border-radius: 100%;
   background-color: #ffffff;
 }
-.social-button:hover {
+.social__button:hover {
   background-color: #2196f3;
 }
-.social-icon {
+.social__icon {
   width: 35px;
   height: 35px;
   stroke-width: 0;
